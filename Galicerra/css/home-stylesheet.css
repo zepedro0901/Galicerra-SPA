@@ -1,0 +1,132 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+   display: flexbox; 
+}
+
+#content-body{
+    height: auto;
+    width: auto;
+}
+#top-menu{
+    position: fixed;
+}
+
+
+#header{
+    width: 100%;
+    height: auto;
+}
+
+#grid-container{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(3,3fr);
+    
+}
+.info-box{
+    display: flex;
+    height: 340px;
+    width: 340px;
+    align-items: center;
+    justify-content: center;
+    align-self:center;
+    justify-self: center;
+    margin: 20px;
+    
+}
+
+
+.inner-info-box{
+  
+    height: 80%;
+    width: 80%;
+    background-color: #00000066;
+    border: 1px solid beige;
+    font-size: 80%;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+
+
+.box-header{
+    width: 100%;
+    height: 100px;
+}
+
+.box-body{
+    margin: 5px ;
+    overflow: auto;
+}
+
+#gabriel-solis-box{
+    background-image:url(/resources/gabriel\ 340x340.jpg);
+}
+
+#gilvan-box{
+    background-image:url(/resources/Gilvan\ 340x340.jpg);
+}
+
+
+#godwin-box{
+    background-image:url(/resources/Godwin\ 340x340.jpg);
+}
+
+#dorgan-box{
+    background-image:url(/resources/Dorgan\ 340\ x\ 340.jpg);
+}
+
+#goliah-box{
+    background-image:url(/resources/Goliah\ 340x340.jpg);
+}
+
+#sunna-box{
+    background-image:url(/resources/Sunna\ 340\ x\ 340.jpg);
+}
+
+#grimlight-box{
+    background-image:url(/resources/Grimlight\ 340x\ 340.jpg);
+}
+
+#gaio-box{
+    background-image:url(/resources/Gaio\ 340x340.jpg);
+}
+
+#godskin-box{
+    background-image:url(/resources/Godskin\ Apostle\ 340x340.jpg);
+}
+
+#content-body{
+    background-color: rgba(47, 50, 50, 0.805);
+}
+
+.character-page{
+    display: grid;
+    justify-content: space-around; 
+    grid-template-columns: repeat(2,3fr);
+
+  
+}
+
+.side-image{
+    justify-self: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.side-information{
+    justify-self: center;
+    overflow: scroll;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    width: 80%;
+    height:500px;
+    font-family: Palatino, URW Palladio L, serif;
+    color: whitesmoke;
+}
