@@ -2,7 +2,7 @@
 
 Welcome to Galicerra!
 
-This SPA was a litle project i did over the weekend to experiment with HTML, JS and CSS.
+This SPA was a little project i did over the weekend to experiment with HTML, JS and CSS.
 
 The app is a small compendium featuring NPC characters from a DnD campaign and a map of the area where it is being run.<p>
 ![imagem](https://github.com/zepedro0901/Galicerra-SPA/assets/116742735/53fba743-40ee-49a0-8ebb-c2d823ef0ce9)
